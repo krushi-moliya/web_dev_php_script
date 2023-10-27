@@ -1,5 +1,6 @@
 <?php
-$num=42;
-$text="Hello!";
-	echo "The number is: ".$num." "."and the text is: ".$text;
+$num=array("1","2","3","4","5");
+	print_r($num);
+	echo "<br>";
+	echo "count number: ".count($num);
 ?>
