@@ -1,5 +1,7 @@
 <?php
-$x=9;
-$y=$x;
-	echo $y;
+$num=array("1","2","3","4","5");
+	foreach ($num as $number)
+	{
+		echo " ".$number;
+	}
 ?>
